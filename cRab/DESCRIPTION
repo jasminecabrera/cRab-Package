@@ -1,0 +1,24 @@
+Package: cRab
+Type: Package
+Title: Calculates the CRAB score.
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jasmine Kristine", "Cabrera",
+      email = "jkscabrera2003@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: This package calculates the CRAB score.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    doParallel,
+    foreach,
+    MASS,
+    palmerpenguins,
+    purrr,
+    tidyclust,
+    tidyr
+RoxygenNote: 7.3.3
